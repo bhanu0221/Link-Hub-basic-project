@@ -11,5 +11,3 @@ build/
 # 🧹 Optional: log files, OS files
 *.log
 .DS_Store
-
-firebase.js
