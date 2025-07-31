@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login Form</title>
+  <link rel="stylesheet" href="log.css"/>
+  <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore-compat.js"></script>
+
+  
+</head>
+<body>
+  <div class="login-container">
+    <h2>🔐 Login</h2>
+    <form id="loginform">
+      <label>Email:<input type="email" name="email" placeholder="Enter your email" required /></label>
+      <label>Password:<input type="password" name="password" placeholder="Enter your password" required /></label>
+      <button type="submit">Login</button>
+    </form>
+  </div>
+
+  <script src="firebase.js"></script>
+</body>
+</html>

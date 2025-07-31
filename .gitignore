@@ -1,0 +1,15 @@
+# 🔐 Don't push sensitive files
+.env
+
+# 🚫 Don't track dependencies
+node_modules/
+
+# 🚫 Don't track build output (if any)
+dist/
+build/
+
+# 🧹 Optional: log files, OS files
+*.log
+.DS_Store
+
+firebase.js
